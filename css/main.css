@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 2.04%, rgba(255, 237, 211, 0) 102.04%);
     font-family: 'Montserrat', sans-serif;
 }
 

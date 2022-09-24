@@ -1,7 +1,9 @@
+.logo {
+ margin-top: 30px;
+}
 
 .header {
-    background-color: #FFFEFC;
-    margin-top: 23px;
+    width: auto;
 }
 
 .center {
@@ -56,8 +58,8 @@
 
 .rigth-content {
     float: right;
-    display: flex;
-    margin-top: -490px;
+    margin-top: -550px;
+    margin-right: -50px;
 }
 
 .media-icon  {
@@ -67,3 +69,159 @@
 .media-icon a {
     text-decoration: none;
 }
+
+.text-center {
+    margin-top: 200px;
+}
+
+
+.order-button {
+    background-color: #FF9401;
+    border: none;
+    color: #ffffff;
+    width: 224px;
+    height: 62px;
+    border-radius: 31px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-right: 210px;
+}
+
+.description-about {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #3F3232;
+}
+
+.title-about {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+    color: #2E2E2E;
+}
+
+
+.title-us {
+   color: #FF9401;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 30px;
+}
+
+.mogo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FF9401;
+}
+
+.title-mogo {
+    font-weight: 700;
+    font-size: 48px;
+    color: #2E2E2E;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 500px)  {
+   .center {
+    display: none;
+   }
+
+   .rigth-content {
+    display: none;
+   }
+
+   .main-title {
+    font-size: 60px;
+    font-weight: 700;
+   }
+   .op-title {
+    font-size: 50px;
+    font-style: 700;
+   }
+   .op-title {
+    font-size: 50px;
+    font-weight: 700;
+   }
+   .content {
+    margin-top: 70px;
+   }
+   .logo {
+    font-size: 32px;
+   }
+
+   .f-link {
+    margin: 15px;
+   }
+}
+
+
+@media only screen and (max-width: 455px)  {
+    .center {
+     display: none;
+    }
+ 
+    .rigth-content {
+     display: none;
+    }
+ 
+    .main-title {
+     font-size: 60px;
+     font-weight: 700;
+    }
+    .op-title {
+     font-size: 50px;
+     font-style: 700;
+    }
+    .op-title {
+     font-size: 50px;
+     font-weight: 700;
+    }
+    .content {
+     margin-top: 70px;
+    }
+    .logo {
+     font-size: 32px;
+    }
+ 
+    .f-link {
+     margin: 15px;
+    }
+ }
+
+ @media only screen and (max-width: 340px)  {
+    .center {
+     display: none;
+    }
+ 
+    .rigth-content {
+     display: none;
+    }
+ 
+    .main-title {
+     font-size: 60px;
+     font-weight: 700;
+    }
+    .op-title {
+     font-size: 50px;
+     font-style: 700;
+    }
+    .op-title {
+     font-size: 50px;
+     font-weight: 700;
+    }
+    .content {
+     margin-top: 70px;
+    }
+    .logo {
+     font-size: 32px;
+    }
+ 
+    .f-link {
+     margin: 15px;
+    }
+ }
